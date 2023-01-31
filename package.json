@@ -4,16 +4,20 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@storybook/addon-docs": "^6.5.16",
+    "@types/styled-components": "^5.1.26",
+    "addon-screen-reader": "^1.8.6",
     "next": "^13.1.6",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.6"
   },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "storybook": "start-storybook -p 6006",
+    "dev:docs": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
   "devDependencies": {
@@ -22,10 +26,12 @@
     "@storybook/addon-essentials": "^6.5.16",
     "@storybook/addon-interactions": "^6.5.16",
     "@storybook/addon-links": "^6.5.16",
+    "@storybook/addons": "^6.5.16",
     "@storybook/builder-webpack5": "^6.5.16",
     "@storybook/manager-webpack5": "^6.5.16",
     "@storybook/react": "^6.5.16",
     "@storybook/testing-library": "^0.0.13",
+    "@storybook/theming": "^6.5.16",
     "@types/node": "18.11.18",
     "@types/react": "18.0.27",
     "babel-loader": "^8.3.0",
